@@ -1,0 +1,9 @@
+package com.rays.ioc;
+
+public class Payment {
+
+	
+	public double getBalance() {
+		return balance;
+	}
+}
