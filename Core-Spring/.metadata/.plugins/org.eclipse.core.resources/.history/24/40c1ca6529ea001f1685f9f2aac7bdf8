@@ -1,0 +1,14 @@
+package com.rays.primary;
+
+public class TestNotificationService {
+
+private MessageService messageService;
+	
+	public void setMessageService(MessageService messageService) {
+		this.messageService = messageService;
+	}
+
+	public void sendNotification(String message) {
+		messageService.sendMessage(message);
+	}
+}
